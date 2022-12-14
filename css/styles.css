@@ -17,7 +17,7 @@
 --footer-text-color: #E7E9FC;
 --primary-bg-color: #FFFFFF; 
 --secondary-bg-color: #2E2F42;
---team-bg-color: #F4F4FD;
+--additional-bg-color: #F4F4FD;
 }
 
 /* index.html */
@@ -39,6 +39,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 
 /* Logo styles*/
 
@@ -123,7 +124,7 @@ a {
 /* Team styles */
 
 .team {
-    background: var(--team-bg-color);
+    background: var(--additional-bg-color);
 }
 .team h2 {
     color: var(--title-text-color);
@@ -162,4 +163,26 @@ a {
 }
 
 /* portfolio.html */
+
+/* Filter buttons styles */
+
+.btn-list {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.4em;
+
+}
+.btn-list .btn {
+    color: var(--accent-color);
+    background-color: var(--additional-bg-color);
+    font-family: inherit;
+    border: 1px solid var(--footer-text-color);
+    border-radius: 4px;
+}
+.btn-list .btn:hover,
+.btn-list .btn:focus {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
 
