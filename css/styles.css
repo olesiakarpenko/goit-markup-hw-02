@@ -1,34 +1,165 @@
-:root {
-    
-}
+/* Title text color #2E2F42 */
+/* Primary text color #434455 */
+/* Hero text color #FFFFFF */
+/* Logo accent text color #4D5AE5 */
+/* Footer STUDIO color #F4F4FD */
+/* Footer text color #E7E9FC */
+/* Primary bg color #FFFFFF */
+/* Secondary bg color #2E2F42 */
+/* Team bg color #F4F4FD */
 
+:root {
+--primary-text-color: #434455;
+--title-text-color: #2E2F42;
+--hero-text-color: #FFFFFF;
+--accent-color: #4D5AE5;
+--footer-logo-color: #F4F4FD;
+--footer-text-color: #E7E9FC;
+--primary-bg-color: #FFFFFF; 
+--secondary-bg-color: #2E2F42;
+--team-bg-color: #F4F4FD;
+}
 
 /* index.html */
 
-body {
-    background-color: #FFFFFF;
-    color: #434455;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
+/* General formatting */
 
+body {
+    background-color: var(--primary-bg-color)
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
 }
 
-/* HEADER */
+/* Logo styles*/
 
 .logo {
-    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.logo-accent {
+    color: var(--accent-color);
 }
 
-/* Main text color #2E2F42 */
-/* Secondary text color #434455 */
-/* Hero text color #FFFFFF */
-/* Logo text color #4D5AE5 */
-/* Footer STUDIO color #F4F4FD */
-/* Footer text color #E7E9FC */
+/* Site navigation styles*/
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 700;
+    text-align: left; 
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.link-current {
+    color: var(--accent-color)
+}
+.site-contacts .link {
+    color: var(--primary-text-color);
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero styles*/
+
+.hero {
+    background: var(--secondary-bg-color);
+}
+.hero h1 {
+    color: var(--hero-text-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+.btn {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+   }
+
+/* Benefits styles */
+
+.benefits h3 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+}
+.benefits p {
+    text-align: left;
+}
+
+/* Projects examples styles */
+
+.projects h2 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+/* Team styles */
+
+.team {
+    background: var(--team-bg-color);
+}
+.team h2 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+.team h3 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team p {
+    text-align: center;
+}
+
+/* Footer styles */
+
+.ftr {
+    background: var(--secondary-bg-color);
+}
+.logo-ftr {
+    color: var(--footer-logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+.ftr p {
+    color: var(--footer-text-color);
+}
+
+/* portfolio.html */
+
