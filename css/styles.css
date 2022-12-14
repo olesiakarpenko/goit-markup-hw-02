@@ -89,7 +89,7 @@ a {
     line-height: 1.07;
     text-align: center;
 }
-.btn {
+.hero-btn {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
     font-weight: 700;
