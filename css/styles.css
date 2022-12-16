@@ -185,4 +185,23 @@ a {
 .btn-list .btn:focus {
     color: var(--hero-text-color);
     background-color: var(--accent-color);
+}
 
+.project-list h3 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 0.2em;
+}
+.project-type {
+    color: var(--primary-text-color);
+    text-align: left;
+    letter-spacing: 0.2em;
+}
+.project-description {
+    color: var(--footer-logo-color);
+    text-align: left;
+    letter-spacing: 0.2em;
+}
